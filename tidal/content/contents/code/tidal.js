@@ -161,7 +161,7 @@ var TidalResolver = Tomahawk.extend(Tomahawk.Resolver, {
         var that = this;
         var settings = {
             data: {
-                limit: limit || 9999,
+                limit: limit || 1000,
                 query: query.replace(/[ \-]+/g, ' ').toLowerCase(),
 
                 sessionId: this._sessionId,
